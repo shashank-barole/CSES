@@ -1,3 +1,7 @@
+"""
+Video Explanation : https://youtu.be/g6OxU-hRGtY
+"""
+
 from math import log2,floor
 N = int(input())
 
