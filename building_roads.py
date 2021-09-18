@@ -21,7 +21,7 @@ for i in range(roads):
     adj[b].append(a)
 
 
-for i in range(1,cities):
+for i in range(1,cities+1):
     if not visit[i]:
         dfs(i)
         result.append(i)
